@@ -3,7 +3,7 @@
 Welcome to my guide! By the end of reading this, you should have a full Discord Bot coded and ready to go!
 Follow these steps and you will be well on your way.
 
-This setup will vary per Operating System and IDE chosen.
+This setup will vary per Operating System and Code Editor chosen.
 
 1. Install Node.js v16.8.0
    Start of by installing NVM. Please select the correct way to install per OS:
