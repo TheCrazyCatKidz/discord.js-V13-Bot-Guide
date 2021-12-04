@@ -13,12 +13,12 @@ This setup will vary per Operating System and IDE chosen.
 
    Once the correct NVM has been installed for your operating system, do the following
    ```js
-    nvm install v16.8.0```
+    nvm install v16.8.0
 
 2. Initialize your folder
    Run: 
    ```js
-     npm init```
+     npm init
    
    
 2.1.
@@ -29,7 +29,7 @@ This setup will vary per Operating System and IDE chosen.
    Launch a terminal window, please make sure you are in the directory of the `npm init` folder you just did in step 2. 
    Then run the following:
    ```js
-      npm i discord.js```
+      npm i discord.js
 
 4. Create a file called `index.js`
   
@@ -59,5 +59,5 @@ This setup will vary per Operating System and IDE chosen.
 
    After this head back to your terminal from earlier and run:
    ```js
-      npm i -g nodemon```
+      npm i -g nodemon
    
