@@ -19,3 +19,6 @@ This setup will vary per Operating System and IDE chosen.
    Run: 
    ```js
      npm init```
+   
+   
+   It does not really matter how you configure your Initialisation but when you reach `entry point` you will need to note of the file name (e.g index.js).
