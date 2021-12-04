@@ -41,5 +41,23 @@ This setup will vary per Operating System and IDE chosen.
 
    Let's start by writing the requirements needed by the node process.
    Write the follow code into your file:
-   ![image](https://user-images.githubusercontent.com/79745507/144714446-15f48279-21d0-4b0a-9cf3-b2d4b070dd1a.png)
+
+   ![image](https://user-images.githubusercontent.com/79745507/144714568-8e98c388-9543-45b3-a436-b4af85f56476.png)
+
+   Lets walk through what this code means.
+   The 1st line is defining `Client` and `Collection` and where they belong to, hence this time it comes from `discord.js`.
+   The 2nd line is starting a new Discord Client with maxiumum intents (32767). Intents is basically maxiumum permissions in your server.
+   The 3rd line is importing/requiring `discord.js` and we can use this module with `discord` as its identifier. 
+   The 4th line is importing/requiring `config.json`, we will come back to this later. 
+
+6. Setting up for testing
+
+   Let's add a `console.log()` so we can test if our bot is responding.
+   Write the following line into your code underneath your Step 5 code.
+
+   ![image](https://user-images.githubusercontent.com/79745507/144714641-b3466ab2-9911-4a10-88a3-89af46dcf2a5.png)
+
+   After this head back to your terminal from earlier and run:
+   ```js
+      npm i -g nodemon```
    
