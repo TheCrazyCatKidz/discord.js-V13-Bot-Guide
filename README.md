@@ -17,5 +17,5 @@ This setup will vary per Operating System and IDE chosen.
 
 2. Initialize your folder
    Run: 
-```js
+   ```js
      npm init```
