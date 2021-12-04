@@ -21,8 +21,7 @@ This setup will vary per Operating System and Code Editor chosen.
      npm init
    
    
-2.1.
-   It does not really matter how you configure your Initialisation but when you reach `entry point` you will need to note of the file name (e.g index.js).
+2.1. It does not really matter how you configure your Initialisation but when you reach `entry point` you will need to note of the file name (e.g index.js).
 
 3. Install the required modules.
    
