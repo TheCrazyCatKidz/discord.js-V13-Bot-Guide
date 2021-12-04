@@ -73,6 +73,7 @@ This setup will vary per Operating System and Code Editor chosen.
 
    This is the hardest bit of the entire guide and you will need to make sure you are paying very close attention to your code.
    We start off in `index.js`, please add the following lines to this file:
+
    ![image](https://user-images.githubusercontent.com/79745507/144714922-ec72d077-4106-456e-8dc7-3e945ee947f4.png)
 
    This is basically linking the command handler to the main file.
