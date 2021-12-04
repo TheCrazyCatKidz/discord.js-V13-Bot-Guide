@@ -7,9 +7,9 @@ This setup will vary per Operating System and IDE chosen.
 
 1. Install Node.js v16.8.0
    Start of by installing NVM. Please select the correct way to install per OS:
-   - Windows: shorturl.at/ryGY4
-   - Linux: shorturl.at/tuOPV
-   - macOS: shorturl.at/jsC17
+   - Windows: www.shorturl.at/ryGY4
+   - Linux: www.shorturl.at/tuOPV
+   - macOS: www.shorturl.at/jsC17
 
    Once the correct NVM has been installed for your operating system, do the following
    ```js
