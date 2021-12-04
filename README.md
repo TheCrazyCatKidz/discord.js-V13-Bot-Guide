@@ -55,9 +55,43 @@ This setup will vary per Operating System and Code Editor chosen.
    Let's add a `console.log()` so we can test if our bot is responding.
    Write the following line into your code underneath your Step 5 code.
 
-   ![image](https://user-images.githubusercontent.com/79745507/144714641-b3466ab2-9911-4a10-88a3-89af46dcf2a5.png)
+   ![image](https://user-images.githubusercontent.com/79745507/144714865-a4f044f3-e0da-4aef-acab-18f4988b63ad.png)
+
 
    After this head back to your terminal from earlier and run:
    ```js
       npm i -g nodemon
    
+7. Testing
+
+   Run your Discord Bot (make sure you are still in the same directory of `index.js`) by running the following command `nodemon index.js`.
+   The output should be the following:
+
+   ![image](https://user-images.githubusercontent.com/79745507/144714856-0321c086-f5f9-4420-b8a4-a6bc34c0639e.png)
+
+8. Building the Command Handler
+
+   This is the hardest bit of the entire guide and you will need to make sure you are paying very close attention to your code.
+   We start off in `index.js`, please add the following lines to this file:
+   ![image](https://user-images.githubusercontent.com/79745507/144714922-ec72d077-4106-456e-8dc7-3e945ee947f4.png)
+
+   This is basically linking the command handler to the main file.
+
+   After this please create four folders in the directory called:
+   - Commands
+   - Events
+   - Handlers
+   - Validations
+   This is CASE SENSITIVE by the way.
+
+   In the Validations folder create two files:
+   - EventNames.js
+   - Permissions.js
+
+   In the `EventNames.js` file please write the following code from this pastebin:
+   - https://pastebin.com/NZJyMBtb
+   
+   In the `Permissions.js` file please wriite the following code from this pastebin:
+   - https://pastebin.com/aLLfi2Td
+
+   Install `ascii-table` by running `npm i ascii-table` in the terminal.
